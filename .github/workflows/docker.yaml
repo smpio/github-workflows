@@ -8,7 +8,8 @@ on:
         required: false
         type: string
       image_name:
-        required: true
+        default: ${{ github.repository }}
+        required: false
         type: string
 
 jobs:
